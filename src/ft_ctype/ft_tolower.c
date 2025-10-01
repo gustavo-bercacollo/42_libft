@@ -6,11 +6,11 @@
 /*   By: gbercaco <gbercaco@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/11 14:51:28 by gbercaco          #+#    #+#             */
-/*   Updated: 2025/07/24 19:01:29 by gbercaco         ###   ########.fr       */
+/*   Updated: 2025/10/01 17:09:23 by gbercaco         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "ft_ctype.h"
 
 int	ft_tolower(int c)
 {

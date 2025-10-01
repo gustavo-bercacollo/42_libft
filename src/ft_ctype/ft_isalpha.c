@@ -6,7 +6,7 @@
 /*   By: gbercaco <gbercaco@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/10 14:46:03 by gbercaco          #+#    #+#             */
-/*   Updated: 2025/07/25 19:37:43 by gbercaco         ###   ########.fr       */
+/*   Updated: 2025/10/01 17:09:09 by gbercaco         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 ** Returns 1 if it is a letter (uppercase or lowercase), otherwise returns 0.
 */
 
-#include "libft.h"
+#include "ft_ctype.h"
 
 int	ft_isalpha(int c)
 {

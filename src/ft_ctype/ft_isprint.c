@@ -6,7 +6,7 @@
 /*   By: gbercaco <gbercaco@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/10 18:06:19 by gbercaco          #+#    #+#             */
-/*   Updated: 2025/07/25 20:53:35 by gbercaco         ###   ########.fr       */
+/*   Updated: 2025/10/01 17:09:19 by gbercaco         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@
 ** Printable characters include letters, digits, symbols, and space.
 */
 
-#include "libft.h"
+#include "ft_ctype.h"
 
 int	ft_isprint(int c)
 {
