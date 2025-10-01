@@ -2,6 +2,9 @@
 # define FT_NON_STANDARD_H
 
 # include <unistd.h>
+# include <stdlib.h>
+# include "ft_string.h"
+
 
 int		ft_ilen(int n);
 int		ft_isdouble(const char *str);
