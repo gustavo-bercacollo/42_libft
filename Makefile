@@ -68,17 +68,17 @@ INCLUDES = $(patsubst %,-I %,$(shell find include -type d))
 all: $(NAME)
 
 $(NAME): $(OBJS)
-	$(AR) $(NAME) $(OBJS)
+	@$(AR) $(NAME) $(OBJS)
 
 %.o: %.c
-	$(CC) $(CFLAGS) $(INCLUDES) -c $< -o $@
+	@$(CC) $(CFLAGS) $(INCLUDES) -c $< -o $@
 
 clean:
-	rm -f $(OBJS)
+	@rm -f $(OBJS)
 
 fclean: clean
-	rm -f $(NAME)
-
+	@rm -f $(NAME)
+	
 re: fclean all
 
 .PHONY: all clean fclean re
