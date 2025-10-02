@@ -1,6 +1,12 @@
 # **************************************************************************** #
 #                                                                              #
-#                                                         LIBFT MAKEFILE       #
+#                                                         :::      ::::::::    #
+#    Makefile                                           :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: gbercaco <gbercaco@student.42.fr>          +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2025/10/01 20:17:25 by gbercaco          #+#    #+#              #
+#    Updated: 2025/10/01 20:17:25 by gbercaco         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -46,6 +52,7 @@ SRCS = $(SRC_DIR)/ft_ctype/ft_isalnum.c \
        $(SRC_DIR)/ft_non_standard/ft_striteri.c \
        $(SRC_DIR)/ft_non_standard/ft_strjoin.c \
        $(SRC_DIR)/ft_non_standard/ft_itoa.c \
+       $(SRC_DIR)/ft_non_standard/ft_atol.c \
        $(SRC_DIR)/ft_non_standard/ft_strtrim.c \
        $(SRC_DIR)/ft_non_standard/ft_split.c \
        $(SRC_DIR)/ft_non_standard/ft_putnbr_fd.c \
